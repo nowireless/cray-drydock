@@ -23,7 +23,7 @@
 #
 apiVersion: v2
 name: cray-drydock
-version: 2.12.1
+version: 2.12.1-lite
 description: Foundational resources and baseline building-blocks for a Cray Kubernetes
   cluster
 keywords:
@@ -35,3 +35,4 @@ sources:
 - https://github.com/Cray-HPE/cray-drydock
 maintainers:
 - name: bknudson-hpe
+appVersion: 0.2.1

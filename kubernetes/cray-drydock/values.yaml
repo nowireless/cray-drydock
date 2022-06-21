@@ -43,12 +43,22 @@ sonar:
       limits:
         memory: "320Mi"
         cpu: "8"
+    crictl:
+      config: /etc/crictl.yaml
+      socket: /run/containerd/containerd.sock
     namespaces:
     - services
     - nexus
     - spire
     - vault
   sync:
+    resources:
+      requests:
+        memory: "1Gi"
+        cpu: "2"
+      limits:
+        memory: "2Gi"
+        cpu: "6"
     schedule:
       minute: "*/1"
       hour: "*"
