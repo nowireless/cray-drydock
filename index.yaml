@@ -3,6 +3,24 @@ entries:
   cray-drydock:
   - apiVersion: v2
     appVersion: 0.2.1
+    created: "2023-03-06T03:37:50.197069832Z"
+    description: Foundational resources and baseline building-blocks for a Cray Kubernetes cluster
+    digest: 4c689137ae0761fb66389ec99acca53604318795ca219975a5e8f32d27bac5b9
+    home: https://github.com/Cray-HPE/cray-drydock
+    keywords:
+    - cray-drydock
+    - sonar-sync
+    - sonar-jobs-watcher
+    maintainers:
+    - name: bknudson-hpe
+    name: cray-drydock
+    sources:
+    - https://github.com/Cray-HPE/cray-drydock
+    urls:
+    - https://github.com/nowireless/cray-drydock/releases/download/cray-drydock-2.16.0-nowireless/cray-drydock-2.16.0-nowireless.tgz
+    version: 2.16.0-nowireless
+  - apiVersion: v2
+    appVersion: 0.2.1
     created: "2022-06-21T22:06:01.35944632Z"
     description: Foundational resources and baseline building-blocks for a Cray Kubernetes cluster
     digest: 4a544b1c8aad841296648c783b3fbe86236481575e74214ce59f0adac2821782
